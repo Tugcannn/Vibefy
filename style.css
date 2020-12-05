@@ -100,7 +100,7 @@
   .logo {
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom: 0.01rem;
     text-align: center;
     color: var(--text-secondary);
     background: var(--bg-secondary);
