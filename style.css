@@ -188,14 +188,14 @@ body {
 
 .header {
     overflow: hidden;
-    background-color: #AC58FA;
+    background-color: #141418;
     padding: 24px 10px;
 }
 
 .header a {
     left: 350px;
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -207,7 +207,7 @@ body {
 .header i.logox {
     left: 350px;
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -218,12 +218,12 @@ body {
 }
 
 .header-right a:hover {
-    background-color: #D0A9F5;
+    background-color: #F5A9F2;
     color: black;
 }
 
 .header a.active {
-    background-color: #2E2E2E;
+    background-color: #df49a6;
     color: white;
 }
 
