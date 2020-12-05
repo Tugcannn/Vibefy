@@ -72,6 +72,11 @@
     background: var(--bg-secondary);
     color: var(--text-secondary);
   }
+
+  .fa-smile-wink,
+  .fa-sad-tear{
+    color: #df49a6;
+  }
   
   .link-text {
     display: none;
@@ -96,6 +101,8 @@
   .fa-secondary {
     transition: var(--transition-speed);
   }
+
+
   
   .logo {
     font-weight: bold;
@@ -177,6 +184,7 @@
       left: 0px;
     }
   }
+  
   * {
     box-sizing: border-box;
 }
@@ -232,7 +240,7 @@ body {
 }
 
 .header-left {
-    padding: 0px 600px;
+    padding: 0px 40rem;
 }
 
 @media screen and (max-width: 500px) {
