@@ -1,6 +1,6 @@
 document.getElementsByClassName("navbar")[0].innerHTML = "<ul class='navbar-nav'>" +
 "<li class='logo'>" +
-    "<a href='#' class='nav-link'>" +
+    "<a href='home.html' class='nav-link'>" +
         "<span class='link-text logo-text'><i>Moods</i></span>" +
         "<svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg'"+
             "xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 480 480'"+
@@ -49,7 +49,7 @@ document.getElementsByClassName("navbar")[0].innerHTML = "<ul class='navbar-nav'
 "</li>"+
 
 "<li class='nav-item'>"+
-    "<a href='#' class='nav-link'>"+
+    "<a href='sad.html' class='nav-link'>"+
         "<div class='nav-div'>"+
             "<i class='fas fa-sad-tear' style='font-size:36px;'></i>"+
         "</div>"+
@@ -58,7 +58,7 @@ document.getElementsByClassName("navbar")[0].innerHTML = "<ul class='navbar-nav'
 "</li>"+
 
 "<li class='nav-item'>"+
-    "<a href='#' class='nav-link'>"+
+    "<a href='energetic.html' class='nav-link'>"+
         "<div class='nav-div'>"+
             "<i class='fas fa-fire' style='font-size:36px;'></i>"+
         "</div>"+
@@ -67,7 +67,7 @@ document.getElementsByClassName("navbar")[0].innerHTML = "<ul class='navbar-nav'
 "</li>"+
 
 "<li class='nav-item'>"+
-    "<a href='#' class='nav-link'>"+
+    "<a href='angry.html' class='nav-link'>"+
         "<div class='nav-div'>"+
             "<i class='far fa-angry' style='font-size:36px;'></i>"+
         "</div>"+
