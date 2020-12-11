@@ -88,22 +88,7 @@
     min-width: 2rem;
     margin: 0 1.5rem;
   }
-  
-  .fa-primary {
-    color: #ff7eee;
-  }
-  
-  .fa-secondary {
-    color: #df49a6;
-  }
-  
-  .fa-primary,
-  .fa-secondary {
-    transition: var(--transition-speed);
-  }
 
-
-  
   .logo {
     font-weight: bold;
     text-transform: uppercase;
@@ -130,7 +115,7 @@
   }
   
   .navbar:hover .logo svg {
-    transform: rotate(-180deg);
+    transform: rotate(-360deg);
   }
   
   /* Small screens */
