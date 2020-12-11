@@ -73,9 +73,19 @@
     color: var(--text-secondary);
   }
 
-  .fa-smile-wink,
+  .fa-smile-wink {
+    color: #FAAC58;
+  }
   .fa-sad-tear{
     color: #df49a6;
+  }
+  
+  .fa-fire {
+    color: #0080FF;
+  }
+
+  .fa-angry {
+    color: #8258FA;
   }
   
   .link-text {
