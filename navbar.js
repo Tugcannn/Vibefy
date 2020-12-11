@@ -40,7 +40,7 @@ document.getElementsByClassName("navbar")[0].innerHTML = "<ul class='navbar-nav'
 "</li>"+
 
 "<li class='nav-item'>"+
-    "<a href='#' class='nav-link'>"+
+    "<a href='happy.html' class='nav-link'>"+
         "<div class='nav-div'>"+
             "<i class='far fa-smile-wink' style='font-size:36px;'></i>"+
         "</div>"+
