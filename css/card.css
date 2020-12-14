@@ -14,9 +14,9 @@ a {
 
 .card-list {
     display: flex;
-    padding: 5rem;
+    padding: 6.5rem;
     overflow-x: scroll;
-    margin-left: 13rem;
+    margin-left: 10rem;
 }
 
 .card-list::-webkit-scrollbar {

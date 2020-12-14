@@ -7,7 +7,7 @@ document.getElementById('my_footer').innerHTML = "<div class='main-content'>"+
    "</div>"+
    "<br>"+
       "<div class='bottom'>"+
-         "<span class='credit'><i>Created By <b>Vibefy &nbsp;</b></i></a></span>"+
+         "<span class='credit'><i>Created By <b>Vibefy </b></i></a></span>"+
          "<span class='far fa-copyright'></span> 2020 All rights reserved."+
       "</div>"+
    "</br>"+
