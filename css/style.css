@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
 :root {
     font-size: 16px;
-    font-family: 'Open Sans';
+    font-family: 'DM Mono', monospace;
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
     --bg-primary: #23232e;
@@ -186,7 +188,6 @@
 
 body {
     margin: 0;
-    font-family: Calibri, Helvetica, sans-serif;
 }
 
 .header {

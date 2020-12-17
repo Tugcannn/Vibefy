@@ -42,6 +42,8 @@ document.getElementById('my_footer').innerHTML = "<div class='main-content'>"+
       "margin-left: 5rem;"+
       "padding: 0rem;"+
       "overflow: hidden;"+
+      "position: relative;"+
+      "z-index: -1"+
    "}"+
 
    ".main-content {"+
