@@ -28,34 +28,33 @@
                 <div id="name">
                     <h2 class="name">
                         Name </h2>
-                    <input class="firstname" type="text" name="first_name"><br>
+                    <input class="firstname" type="text" name="first_name" required><br>
                     <label class="firstlabel">first name</label>
-                    <input class="lastname" type="text" name="last_name"><br>
+                    <input class="lastname" type="text" name="last_name" required><br>
                     <label class="lastlabel">last name</label>
                 </div>
                 <h2 class="name">
                     Nickname </h2>
-                <input class="company" type="text" name="company">
+                <input class="company" type="text" name="company" required>
+                <h2 class="name">
+                    Password</h2>
+                <input class="company" type="password" name="company" minlength="8" required>
                 <h2 class="name">
                     Email</h2>
-                <input class="email" type="email" name="email">
-                <h2 class="name">
-                    Phone</h2>
-                <input class="Code" type="text" name="area_code">
-                <label class="area-code">Area Code</label>
-                <input class="number" type="text" name="phone">
-                <label class="phone-number">Phone Number</label>
+                <input class="email" type="email" name="email" required>
+                
 
 
                 <h2 class="name">
                     Gender</h2>
-                <select class="option" name="subject">
-                    <option disabled="disabled" selected="selected">--Choose Gender--</option>
-                    <option>Male</option>
-                    <option>Female</option>
-                    <option>Other</option>
-                    <option>Unknown</option>
+                <select class="option" name="subject" required>
+                    <option value="">--Choose Gender--</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                    <option value="Unknown">Unknown</option>
                 </select>
+                 
 
                 <h2 id="coustomer">
                  
