@@ -4,7 +4,7 @@ document.getElementById("header").innerHTML = "<div class='header'>" +
 "</div>" +
 "<div class='header-right'> " +
     "<a class='active' href='home.html'><i>Home</i></a>" +
-    "<a href='#'><i>Contact</i></a>" +
-    "<a href='#'><i>About</i></a>" +
+    "<a href='register.html'><i>Register</i></a>" +
+    "<a href='#'><i>Login</i></a>" +
 "</div>" +
 "</div>";
