@@ -226,11 +226,6 @@ body {
     color: black;
 }
 
-.header a.active {
-    background-color: #df49a6;
-    color: white;
-}
-
 .header-right {
     float: right;
 }

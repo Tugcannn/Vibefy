@@ -24,7 +24,7 @@ document.getElementById('my_footer').innerHTML = "<div class='main-content'>"+
 "<div class='right box'>"+
    "<h2><i>Contact us</i></h2>"+
    "<div class='content'>"+
-      "<div class='email'>"+
+      "<div class='email_footer'>"+
          "<span class='fas fa-envelope' style='font-size:24px;'></span>"+
          "<span class='text'><b><i>&nbsp; E-mail</i></b></span>"+
          "<p><i>uygar.kaya@ozu.edu.tr</i></p>"+
