@@ -10,10 +10,15 @@ function save(event){
     var nickname = document.getElementById("nickname").value;
     var password = document.getElementById("password").value;
     if(isStored(nickname, password)){
-        sessionStorage.setItem('nickname', nickname);
-        sessionStorage.setItem('password', password);
-        event.preventDefault();
-        window.location.replace("../html/home.html");
+        if(nickname==="" || password===""){
+            window.confirm("One of your fields is empty");
+        }
+        else{
+            sessionStorage.setItem('nickname', nickname);
+            sessionStorage.setItem('password', password);
+            event.preventDefault();
+            window.location.replace("../html/home.html");
+        }
     }
     else{
         window.confirm("Your nickname or password is wrong.");

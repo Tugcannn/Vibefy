@@ -17,13 +17,18 @@ function save(event){
     if(sameNicknameCheck(nickname))
         window.confirm("Nickname is already taken");
     else{
-        localStorage.setItem(`first_name ${value}`, name);
-        localStorage.setItem(`last_name ${value}`, surname);
-        localStorage.setItem(`nickname ${value}`, nickname);
-        localStorage.setItem(`password ${value}`, password);
-        localStorage.setItem(`email ${value}`, email);
-        window.confirm("Successfully registered");
-        event.preventDefault();
-        window.location.replace("../html/login.html");
+        if(name === "" || surname === "" || nickname === "" || password === "" || email === ""){
+            window.confirm("One of your fields are empty");
+        }
+        else{
+            localStorage.setItem(`first_name ${value}`, name);
+            localStorage.setItem(`last_name ${value}`, surname);
+            localStorage.setItem(`nickname ${value}`, nickname);
+            localStorage.setItem(`password ${value}`, password);
+            localStorage.setItem(`email ${value}`, email);
+            window.confirm("Successfully registered");
+            event.preventDefault();
+            window.location.replace("../html/login.html");
+        }
     }
 } 
