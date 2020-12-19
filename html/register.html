@@ -32,7 +32,9 @@
 <body style="background-color: #141418;">
     <header id="header"></header>
     <nav class="navbar"></nav>
+    
     <main>
+        
         <div class="regform">
             <h1>
                 Registration Form</h1>
@@ -43,20 +45,20 @@
                 <div id="name">
                     <h2 class="name">
                         Name </h2>
-                    <input class="firstname" type="text" name="first_name" required><br>
+                    <input class="firstname" id ="first_name" type="text" name="first_name" required><br>
                     <label class="firstlabel">first name</label>
-                    <input class="lastname" type="text" name="last_name" required><br>
+                    <input class="lastname" id ="last_name" type="text" name="last_name" required><br>
                     <label class="lastlabel">last name</label>
                 </div>
                 <h2 class="name">
                     Nickname </h2>
-                <input class="company" type="text" name="company" required>
+                <input class="company" id ="nickname" type="text" name="nickname" required>
                 <h2 class="name">
                     Password</h2>
-                <input class="company" type="password" name="company" minlength="8" required>
+                <input class="company" id ="password" type="password" name="password" minlength="8" required>
                 <h2 class="name">
                     Email</h2>
-                <input class="email" type="email" name="email" required>
+                <input class="email" id ="email" type="email" name="email" required>
                 <h2 class="name">
                     Gender</h2>
                 <select class="option" name="subject" required>
@@ -83,7 +85,7 @@
                     No
                 </label>
 
-                <button type="submit">Register</button>
+                <button id ="button" type="submit">Register</button>
             </form>
         </div>
     </main>
@@ -91,5 +93,7 @@
 </body>
 <script type="text/javascript" src="../js/header.js"></script>
 <script type="text/javascript" src="../js/navbar.js"></script>
+<script type="text/javascript" src="../js/register.js"></script>
 <script type="text/javascript" src="../js/footer.js"></script>
+
 </html>
