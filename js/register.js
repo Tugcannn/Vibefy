@@ -1,6 +1,5 @@
 var value = localStorage.length/5 ;
 
-
 function sameNicknameCheck(nickname){
     for(var i = 0; i < localStorage.length/5; i++){
         if(localStorage.getItem(`nickname ${i}`) == nickname)

@@ -5,7 +5,7 @@ if(sessionStorage.length>0){
     "</div>" +
     "<div class='header-right'> " +
         "<a href='home.html'><i>Home</i></a>" +
-        "<a href='login.html'><i>Logout</i></a>" +
+        "<a href='login.html' onclick='logout()' ><i>Logout</i></a>" +
     "</div>" +
     "</div>";
 }
@@ -20,4 +20,9 @@ document.getElementById("header").innerHTML = "<div class='header'>" +
     "<a href='login.html'><i>Login</i></a>" +
 "</div>" +
 "</div>";
+}
+
+function logout()
+{
+    sessionStorage.clear();
 }
