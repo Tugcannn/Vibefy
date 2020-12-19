@@ -1,7 +1,7 @@
-var value = localStorage.length/5 ;
+var value = localStorage.length/6 ;
 
 function sameNicknameCheck(nickname){
-    for(var i = 0; i < localStorage.length/5; i++){
+    for(var i = 0; i < localStorage.length/6; i++){
         if(localStorage.getItem(`nickname ${i}`) == nickname)
             return true;
     }
@@ -14,10 +14,11 @@ function save(event){
     var nickname = document.getElementById('nickname').value;
     var password = document.getElementById('password').value;
     var email = document.getElementById('email').value;
+    var gender = document.getElementById('gender').value;
     if(sameNicknameCheck(nickname))
         window.confirm("Nickname is already taken");
     else{
-        if(name === "" || surname === "" || nickname === "" || password === "" || email === ""){
+        if(name === "" || surname === "" || nickname === "" || password === "" || email === "" || gender === ""){
             window.confirm("One of your fields are empty");
         }
         else{
@@ -26,6 +27,7 @@ function save(event){
             localStorage.setItem(`nickname ${value}`, nickname);
             localStorage.setItem(`password ${value}`, password);
             localStorage.setItem(`email ${value}`, email);
+            localStorage.setItem(`gender ${value}`, gender);
             window.confirm("Successfully registered");
             event.preventDefault();
             window.location.replace("../html/login.html");

@@ -1,5 +1,5 @@
 function isStored(nickname, password){
-    for(var i = 0; i < localStorage.length/5; i++){
+    for(var i = 0; i < localStorage.length/6; i++){
         if(localStorage.getItem(`nickname ${i}`) == nickname && localStorage.getItem(`password ${i}`) == password)
             return true;
     }
