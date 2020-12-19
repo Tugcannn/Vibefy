@@ -53,10 +53,12 @@
   
   .nav-item {
     width: 100%;
+    
   }
   
   .nav-div{
     margin-left: 1.5rem;
+    color:#ececec;
   }
   
   .nav-link {
@@ -76,18 +78,18 @@
   }
 
   .fa-smile-wink {
-    color: #FAAC58;
+    color: #FCFF00;
   }
   .fa-sad-tear{
-    color: #df49a6;
+    color: #00E2FF;
   }
   
   .fa-fire {
-    color: #0080FF;
+    color: #56FF00;
   }
 
   .fa-angry {
-    color: #8258FA;
+    color: #FF9E9E;
   }
   
   .link-text {
@@ -219,11 +221,6 @@ body {
     line-height: 25px;
     border-radius: 20px;
     font-weight: bold;
-}
-
-.header-right a:hover {
-    background-color: #FF00EB;
-    color: black;
 }
 
 .header-right {

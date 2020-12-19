@@ -78,17 +78,6 @@ document.getElementById('my_footer').innerHTML = "<div class='main-content'>"+
       "background: white;"+
       "top: -10px;"+
    "}"+
-   ".content .fas {"+
-      "font-size: 1.4375rem;"+
-      "background: #FF00EB;"+
-      "height: 45px;"+
-      "width: 45px;"+
-      "line-height: 45px;"+
-      "text-align: center;"+
-      "border-radius: 50%;"
-      "transition: 0.3s;"+
-      "cursor: pointer;"+
-   "}"+
    ".center .content .fas:hover {"+
       "background: #f12020;"+
    "}"+
@@ -103,7 +92,7 @@ document.getElementById('my_footer').innerHTML = "<div class='main-content'>"+
       "background: #151515;"+
    "}"+
    ".fa-envelope {"+
-      "color: #FF00EB;"+
+      "color: white;"+
    "}"+
    "@media screen and (max-width: 900px) {"+
       "footer {"+

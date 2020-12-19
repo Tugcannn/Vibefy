@@ -42,7 +42,7 @@ document.getElementsByClassName("navbar")[0].innerHTML = "<ul class='navbar-nav'
 "<li class='nav-item'>"+
     "<a href='happy.html' class='nav-link'>"+
         "<div class='nav-div'>"+
-            "<i class='far fa-smile-wink' style='font-size:36px;'></i>"+
+            "<i class='fas fa-smile-wink' style='font-size:36px;'></i>"+
         "</div>"+
         "<span class='link-text'><i>Happy</i></span>"+
     "</a>"+
@@ -69,7 +69,7 @@ document.getElementsByClassName("navbar")[0].innerHTML = "<ul class='navbar-nav'
 "<li class='nav-item'>"+
     "<a href='angry.html' class='nav-link'>"+
         "<div class='nav-div'>"+
-            "<i class='far fa-angry' style='font-size:36px;'></i>"+
+            "<i class='fas fa-angry' style='font-size:36px;'></i>"+
         "</div>"+
         "<span class='link-text'><i>Angry</i></span>"+
     "</a>"+
