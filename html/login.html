@@ -4,9 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vibefy</title>
-    <!-- title için isim bulalım ben kafama göre koydum bir tane -->
     <link rel="icon" href="../assets/images/svgs/headphones_head.svg" type="image/svg">
-    <!-- icon için de başka şeyler seçebiliriz -->
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="../css/register.css">
@@ -41,12 +39,12 @@
             <form method="POST">
                 <h2 class="name">
                     Nickname </h2>
-                <input class="company" type="text" name="company" required>
+                <input class="company" id="nickname" type="text" name="company" required>
                 <h2 class="name">
                     Password</h2>
-                <input class="company" type="password" name="company" minlength="8" required>
+                <input class="company" id="password" type="password" name="company" minlength="8" required>
 
-                <button type="submit">Login</button>
+                <button id="button" type="submit" onclick="save(event)">Login</button>
             </form>
         </div>
 
@@ -55,6 +53,7 @@
 </body>
 <script type="text/javascript" src="../js/header.js"></script>
 <script type="text/javascript" src="../js/navbar.js"></script>
+<script type="text/javascript" src="../js/login.js"></script>
 <script type="text/javascript" src="../js/footer.js"></script>
 
 
