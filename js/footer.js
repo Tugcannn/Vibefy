@@ -75,12 +75,12 @@ document.getElementById('my_footer').innerHTML = "<div class='main-content'>"+
       "content: '';"+
       "height: 2px;"+
       "width: 15%;"+
-      "background: #f12020;"+
+      "background: white;"+
       "top: -10px;"+
    "}"+
    ".content .fas {"+
       "font-size: 1.4375rem;"+
-      "background: #DA81F5;"+
+      "background: #FF00EB;"+
       "height: 45px;"+
       "width: 45px;"+
       "line-height: 45px;"+
@@ -103,7 +103,7 @@ document.getElementById('my_footer').innerHTML = "<div class='main-content'>"+
       "background: #151515;"+
    "}"+
    ".fa-envelope {"+
-      "color: #DA81F5;"+
+      "color: #FF00EB;"+
    "}"+
    "@media screen and (max-width: 900px) {"+
       "footer {"+
