@@ -210,9 +210,5 @@ button{
    transition:0.25px;
    font-size: 15px;
    font-weight: bold;
+   margin-left: 280px;
 }
-
-button:hover{
-   background-color: #FF00EB;
-   color: white;
-}  
