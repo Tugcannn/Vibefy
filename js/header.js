@@ -1,4 +1,5 @@
 if(sessionStorage.length>0){
+    var nickname = sessionStorage.getItem("nickname");
     document.getElementById("header").innerHTML = "<div class='header'>" +
     "<div class='header-left'>" +
         "<i class='logox'>Vibefy</i>" +
@@ -6,6 +7,7 @@ if(sessionStorage.length>0){
     "<div class='header-right'> " +
         "<a href='home.html'><i>Home</i></a>" +
         "<a href='login.html' onclick='logout()' ><i>Logout</i></a>" +
+        "<i id='welcome' style='font-weight: bold;'>"+nickname+"</i>"+
     "</div>" +
     "</div>";
 }

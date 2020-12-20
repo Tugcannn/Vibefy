@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
 body{
    background-position:center;
    background-size:cover; /*Check later*/
    margin:0;
    padding:0;
+   font-size: 16px;
+   font-family: 'DM Mono', monospace;
 }
 
 .regform{
@@ -12,17 +16,29 @@ body{
    color:#FFFFFF;
    text-align:center;
    border-radius:10px 10px 0px 0px ;
+   /* background: rgba(0, 0, 0, 0.2); */
 }
+
+/* #bckgrnd{
+   height: 100%; */
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 .main{
    background-color:#23232e;
    width:800px;
    margin:auto;
+   /* background: rgba(0, 0, 0, 0.2); */
 }
 
 form{
    margin-top: -21px;
    padding:10px;
+   
 }
 
 #name{
@@ -46,6 +62,7 @@ form{
    border-radius: 6px;
    padding: 0 22px;
    font-size: 16px;
+   /* opacity: 1.0; */
 }
 
 .lastname{
@@ -197,5 +214,5 @@ button{
 
 button:hover{
    background-color: #FF00EB;
-   color: black;
+   color: white;
 }  
