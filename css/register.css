@@ -16,27 +16,27 @@ body{
    color:#FFFFFF;
    text-align:center;
    border-radius:10px 10px 0px 0px ;
-   /* background: rgba(0, 0, 0, 0.2); */
+   background: rgba(0, 0, 0, 0.2);
 }
 
-/* #bckgrnd{
-   height: 100%; */
+#bckgrnd{
+   height: 100%; 
 
   /* Center and scale the image nicely */
-  /* background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
 
 .main{
    background-color:#23232e;
    width:800px;
    margin:auto;
-   /* background: rgba(0, 0, 0, 0.2); */
+   background: rgba(0, 0, 0, 0.2); 
 }
 
 form{
-   margin-top: -21px;
+   margin-top: -22px;
    padding:10px;
    
 }
@@ -62,7 +62,7 @@ form{
    border-radius: 6px;
    padding: 0 22px;
    font-size: 16px;
-   /* opacity: 1.0; */
+   opacity: 1.0;
 }
 
 .lastname{
